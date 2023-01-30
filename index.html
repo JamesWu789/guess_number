@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guess number Game</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Guess My Salary!!</h1>
+    <p class="between_mess">(Between 0 and 20 thousand)</p>
+    <button class="btn again">Again</button>
+    <div class="ans">?</div>
+  </header>
+
+  <main>
+    <!--分區塊 (左下區)-->
+    <section class="left">
+      <input type="number" class="guess">
+      <button class="btn check">check!</button>
+    </section>
+
+    <section class="right">
+      <p class="message">Start guessing...</p>
+      <p class="label-score">Score:
+        <span class="score">20</span>
+      </p>
+      <p class="label-highs">🐱‍👓 Highscore:
+        <span class="highscore">0</span>
+      </p>
+    </section>
+  </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
